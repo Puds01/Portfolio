@@ -32,7 +32,7 @@ body {
     font-weight: 600;
 }
 
-.navbar a {
+.nav a {
     font-style: 18px;
     color: white;
     text-decoration: none;
@@ -40,8 +40,8 @@ body {
     margin-left: 35px;
 }
 
-.navbar a:hover,
-.navbar a:active {
+.nav a:hover,
+.nav a.active {
     color: aqua;
 }
 
