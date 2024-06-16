@@ -42,7 +42,7 @@ body {
 
 .nav a:hover,
 .nav a.active {
-    color: aqua;
+    color: rgb(0, 223, 205);
 }
 
 .home {
