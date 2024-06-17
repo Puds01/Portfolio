@@ -147,9 +147,10 @@ body {
 
 .home-content p {
     position: relative;
+    text-align: inherit;
     font-size: 16px;
     font-weight: 700;
-    color: antiquewhite;
+    color: white;
     margin: 20px 0px 30px;
 }
 
