@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #081b29; 
+    background: #C5B7AB; 
     color:  white;   
 }
 
@@ -23,6 +23,7 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background: #806751;
 }
 
 .logo {
@@ -40,13 +41,13 @@ body {
     right: 0;
     width: 100%;
     height: 100%;
-    background: #081b29;
+    background: #806751;
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
 }
 
 .nav a {
-    font-style: 18px;
+    font-size: 18px;
     color: white;
     text-decoration: none;
     font-weight: 500;
@@ -55,7 +56,7 @@ body {
 
 .nav a:hover,
 .nav a.active {
-    color: rgb(0, 223, 205);
+    color: #C5B7AB;
 }
 
 .home {
@@ -105,6 +106,7 @@ body {
 
 .home-content {
     max-width: 800px;
+    margin-top: -13%;
 }
 
 .home-content h1 {
@@ -121,7 +123,7 @@ body {
     right: 0;
     width: 100%;
     height: 100%;
-    background: #081b29;
+    background: #C5B7AB;
     animation: showRight 1s ease forwards;
     animation-delay: 1s;
 }
@@ -130,7 +132,7 @@ body {
     position: relative;
     font-size: 32px;
     font-weight: 700;
-    color: darkcyan;
+    color: #806751;
 }
 
 .home-content h3::before {
@@ -140,7 +142,7 @@ body {
     right: 0;
     width: 100%;
     height: 100%;
-    background: #081b29;
+    background: #C5B7AB;
     animation: showRight 1s ease forwards;
     animation-delay: 1.3s;
 }
@@ -161,7 +163,7 @@ body {
     right: 0;
     width: 100%;
     height: 100%;
-    background: #081b29;
+    background: #C5B7AB;
     animation: showRight 1s ease forwards;
     animation-delay: 1.6s;
 }
@@ -180,11 +182,11 @@ body {
     align-items: center;
     width: 150px;
     height: 100%;
-    background: #00abf0;
-    border: 2px solid #00abf0;
+    background: #806751;
+    border: 2px solid #806751;
     border-radius: 8px;
     font-size: 19px;
-    color: #081b29;
+    color: #C5B7AB;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -194,21 +196,21 @@ body {
 }
 
 .btn-box a:hover {
-    color: #00abf0;
+    color: #806751;
 }
 
 .btn-box a:nth-child(2) {
     background: transparent;
-    color: #00abf0;
+    color: #806751;
 }
 
 .btn-box a:nth-child(2):hover {
-    color: #081b29;    
+    color: #C5B7AB;    
 }
 
 
 .btn-box a:nth-child(2)::before {
-    background: #00abf0;
+    background: #806751;
 }
 
 .btn-box a::before {
@@ -218,7 +220,7 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background: #081b29;
+    background: #C5B7AB;
     z-index: -1;
     transition: .5s;
 }
@@ -243,10 +245,10 @@ body {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #00abf0;
+    border: 2px solid #806751;
     border-radius: 50%;
     font-size: 20px;
-    color: #00abf0;
+    color: #806751;
     text-decoration: none;
     overflow: hidden;
     z-index: 1;
@@ -260,16 +262,25 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background: #00abf0;
+    background: #806751;
     z-index: -1;
     transition: .5s;
 } 
 
 .home-sci a:hover {
-    color: #081b29;
+    color: #C5B7AB;
 }
 .home-sci a:hover::before {
     width: 100%;
+}
+
+/* SHAPES */
+.line {
+    position: absolute;
+    width: 500px;
+    height: 3px;
+    margin-top: -30px;
+    background: #806751;
 }
 
 /* KEYFRAMES ANIMATION  */
